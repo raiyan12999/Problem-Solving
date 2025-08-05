@@ -14,8 +14,10 @@ public class Lesson1 {
 
         System.out.println("first roll No " + rollNo2[0]);
 
-        int[] rollNo3; // Declaration: Only the reference variable is created in the stack
-        rollNo3 = new int[6]; // Initialization: Memory creation. The array object is created in the heap. 
+        int[] rollNo3; // Declaration: Only the reference variable is created in the stack (happened at compile time)
+        rollNo3 = new int[6]; // Initialization: Memory creation. The array object is created in the heap. (happened at runtime -> Dynamic Memory Allocation)
+
+        // new is used to create object at heap memory: dynamic memory allocation
 
     }
 }
