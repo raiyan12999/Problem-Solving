@@ -29,5 +29,7 @@ public class Lesson1 {
         // So by default empty int array is like this -> [0, 0, 0]
         // And by default empty String array is like this -> [null, null, null]
 
+        
+
     }
 }
