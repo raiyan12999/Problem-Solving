@@ -1,3 +1,5 @@
+package Array;
+
 public class Lesson1 {
     public static void main(String[] args){
         
@@ -18,6 +20,11 @@ public class Lesson1 {
         rollNo3 = new int[6]; // Initialization: Memory creation. The array object is created in the heap. (happened at runtime -> Dynamic Memory Allocation)
 
         // new is used to create object at heap memory: dynamic memory allocation
+
+        String[] name = new String[6];
+
+        System.out.println("first element of rollNo3 " + rollNo3[0]);
+        System.out.println("first element of name " + name[0]);
 
     }
 }
